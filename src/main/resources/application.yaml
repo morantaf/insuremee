@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    password: 'password'
+    url: jdbc:h2:mem:testdb
+    username: SA
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
